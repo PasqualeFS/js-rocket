@@ -1,0 +1,84 @@
+<!--
+
+*** What is Javascript Exactly? ***
+
+- Programming language used mostly on the web
+- Loves HTML, CSS & Humans
+- Can communicate with a server
+
+*** Where do we use Javascript? ***
+
+- In the browser and in a few other places
+- Can also be a server-language
+
+*** What can Javascript do? ***
+
+- A lot
+- Count (really) fast
+- Great at math
+- Can make things move
+- Talk to the server
+- change words, drag things, alert you
+- it knows a lot!
+
+
+*** PROPERTIES ***
+
+
+*** METHODS ***
+- default and custom
+-->
+
+<script type="text/javascript">
+	console.log('hello there, dummy!'); // print to the console
+
+	var favColor = 'red'; // This is a variable. Variable names can have underscores but no spaces or dashes.  Camelcase is best.  Don't need spaces around equal sign but it's easily readable. Double or single quotes but stick to one.
+
+	var myFavColors = ['blue', 'red', 'green']; // This variable is an array.  An array is a list. You can keep any sort of list. Text, Numbers, Variables, Objects, Functions, etc.
+
+	var numOfFavColors = 3; // This variable is a number. Numbers do not need quotes around them.
+
+	var hasGotFavColors = true; // This variable is a boolean.  Booleans are always either true or false.
+
+	// The variable below is an Object and they can hold all sorts of related data that can be accessed in a variety of ways.
+	var richObject = {
+		firstName: 'Rich',
+		lastName: 'Armstrong',
+		favColors: ['blue', 'red', 'green'],
+		yearsAlive: 103,
+		isMale: true
+	};
+
+	richObject.isMale; //calling this will print out the boolean value of true.
+
+	// Functions
+
+	var fullname = function(firstname, lastname){
+		return 'My name is ' + firstname + ' ' + lastname;
+	}
+
+	var area = function (width, height) {
+		return width * height;
+	}
+
+	var whatIsMyFavColor = function() {
+		return false;
+		return 'blue'; // you can return booleans, strings, numbers, arrays, etc.
+	}
+
+	var doSomething = function() {
+		console.log('do something!!!');
+	}
+
+
+	// If-Else Statements
+
+	var number1 = 10;
+	var number2 = 100;
+
+	if (number1 > number2) {
+		alert('greater!');
+	} else {
+		alert('smaller');
+	}
+</script>
